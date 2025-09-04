@@ -60,7 +60,7 @@ export default function FirstVideo() {
           muted
           playsInline
           preload="auto"
-          src="/videos/video-3.mp4"
+          src="/videos/test3.mov"
           className="first-vd w-full h-full object-cover"
         />
       </div>

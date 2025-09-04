@@ -83,12 +83,13 @@ const Hero = () => {
 
         <div className="overlay absolute inset-0 bg-black opacity-0 z-10"></div>
 
-        <div className="absolute bottom-0 left-0 inset-x-0 flex justify-between p-6 hero-content text-4xl text-white z-20">
+        <div className="absolute inset-0 flex flex-col items-center justify-center transform p-12 hero-content text-4xl text-white z-20">
           <div className="hero-title">
-            <h1 className="font-black leading-none">La Catedral Tattoo</h1>
+            <h1 className="font-black text-2xl mb-6">La Catedral Tattoo Studio</h1>
           </div>
-          <div className="hero-subtitle">
-            <p className="font-medium">El mejor estudio de Quito</p>
+          <div className="hero-subtitle max-w-[600px] text-center">
+            <h1 className="font-black text-5xl mb-10">Estudio de tatuajes en Quito - Ecuador</h1>
+            <a href="https://wa.me/593978693128?text=¡Hola!%20Estoy%20visitando%20su%20sitio%20web%20y%20deseo%20más%20información" target="_blank" className="bg-black p-4 rounded-lg border-white border-2 text-lg hover:bg-sky-700 transition duration-[0.5s]">Agendar cita</a>
           </div>
         </div>
       </section>
@@ -129,8 +130,9 @@ const Hero = () => {
                 Galería
               </a>
               <a
-                href="#contacto"
+                href="https://wa.me/593978693128?text=¡Hola!%20Estoy%20visitando%20su%20sitio%20web%20y%20deseo%20más%20información"
                 className="inline-flex items-center rounded-xl bg-white/90 text-black px-3 py-1.5 text-sm font-semibold hover:bg-white"
+                target="_blank"
               >
                 Agendar cita
               </a>
@@ -148,7 +150,8 @@ const Hero = () => {
             width={240}
             height={240}
           />
-          <h1 className="text-3xl fade-out text-center my-10">La Catedral Tattoo</h1>
+          <p className="text-6xl fade-out text-center mb-10">Bienvenidos</p>
+          <h1 className="text-center text-4xl mb-20">La catedral Tattoo Studio</h1>
           <p className="text-center fade-out">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias
             dolores, esse repellendus magnam animi, dignissimos odio similique

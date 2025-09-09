@@ -30,7 +30,7 @@ export default function FirstVideo() {
     });
 
     // posiciona con el 3er argumento en vez de delay
-    tl.to(".carousel-section", { opacity: 0, ease: "power1.inOut" }, 0.5)
+    tl.to(".hero-section", { opacity: 0, ease: "power1.inOut" }, 0.5)
       .to(".first-vd-wrapper", { opacity: 1, duration: 0.6, ease: "power1.inOut" }, 0.5);
 
     if (!v) return;

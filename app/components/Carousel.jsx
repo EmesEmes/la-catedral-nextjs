@@ -1,12 +1,8 @@
 "use client"
 
 import React, { useEffect, useRef, useState, useCallback } from "react";
+import SectionTitle from "./SectionTitle";
 
-/**
- * props:
- *  - images: [{ src, alt, artist, style }]
- *  - autoplayMs: number (opcional, default 5000)
- */
 export default function Carousel({ images = [], autoplayMs = 5000 }) {
   const carouselRef = useRef(null); // contenedor que scrollea
   const trackRef = useRef(null);    // ul que contiene los li
@@ -109,11 +105,10 @@ export default function Carousel({ images = [], autoplayMs = 5000 }) {
   }, [lightbox.open, closeLightbox]);
 
   return (
-    <section className="carousel-section z-20 p-10">
-      <div className="relative w-full px-4 py-8 my-10">
-        <h2 className="text-5xl mb-10 text-center text-white">
-          ALGUNOS DE NUESTROS TRABAJOS FAVORITOS
-        </h2>
+    <section className="carousel-section p-10">
+      <div className="relative w-full px-4 py-8">
+
+        <SectionTitle title="Destacados de La Catedral" subtitle="El arte del tatuaje elevado a su máxima expresión."/>
 
         {/* Carrusel */}
         <div className="w-full ">

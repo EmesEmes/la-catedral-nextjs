@@ -7,6 +7,9 @@ import Carousel from "./components/Carousel";
 import FirstVideo from "./components/FirstVideo";
 import Map from "./components/Map";
 import Footer from "./components/Footer";
+import Gallery from "./components/Gallery";
+import Styles from "./components/Styles";
+import Artists from "./components/Artists";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -21,10 +24,14 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <Carousel images={images} />
       <FirstVideo />
+      <Carousel images={images} />
+      {/* <Gallery /> */}
+      <Styles />
+      <Artists />
       <Map />
       <Footer />
     </>
   ); 
 }
+

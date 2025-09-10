@@ -88,7 +88,7 @@ const Hero = () => {
         <div className="absolute inset-0 flex flex-col items-center justify-center transform p-12 hero-content text-4xl text-white z-20">
           <div className="hero-title flex flex-col items-center">
             <img src="/images/logo.png" alt="" className="w-[800px] opacity-70 "/>
-            <p className="my-10">Quito | Ecuador</p>
+            <p className="my-10">Quito | Ecuador testttttttt</p>
             <a
               href="https://wa.me/593978693128?text=¡Hola!%20Estoy%20visitando%20su%20sitio%20web%20y%20deseo%20más%20información"
               target="_blank"

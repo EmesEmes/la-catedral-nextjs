@@ -28,6 +28,11 @@ export const metadata = {
   },
   description: defaultDescription,
   keywords: [
+    "tattoo",
+    "tattoo adventure",
+    "tattoo adventure gear",
+    "tattoo gear",
+    "quito tattoo",
     "tatuajes quito",
     "estudio de tatuajes",
     "tatuadores en quito",

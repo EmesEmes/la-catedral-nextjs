@@ -100,7 +100,7 @@ const Styles = () => {
 
   return (
     <section id="work" className="flex flex-col ">
-      <SectionTitle title="El arte tiene muchas formas" subtitle="Descubre la variedad de estilos que nuestros artistas dominan a la perfección."/>
+      <SectionTitle title="Artistas de La Catedral" subtitle="alento, pasión y estilo plasmados en cada tatuaje."/>
       <div
         className="relative flex flex-col font-light"
         onMouseMove={handleMouseMove}
@@ -161,7 +161,7 @@ const Styles = () => {
             <img
               src={projects[currentIndex].image}
               alt="preview"
-              className="object-cover w-[500px] h-[600px]"
+              className="object-cover w-[500px] h-[600px] grayscale-100"
             />
           )}
         </div>

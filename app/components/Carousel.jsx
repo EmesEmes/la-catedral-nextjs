@@ -3,7 +3,7 @@
 import React, { useEffect, useRef, useState, useCallback } from "react";
 import SectionTitle from "./SectionTitle";
 
-export default function Carousel({ images = [], autoplayMs = 5000 }) {
+export default function Carousel({ images = [], autoplayMs = 2000 }) {
   const carouselRef = useRef(null); // contenedor que scrollea
   const trackRef = useRef(null);    // ul que contiene los li
   const timerRef = useRef(null);
@@ -108,7 +108,7 @@ export default function Carousel({ images = [], autoplayMs = 5000 }) {
     <section className="carousel-section p-10">
       <div className="relative w-full px-4 py-8">
 
-        <SectionTitle title="Destacados de La Catedral" subtitle="El arte del tatuaje elevado a su máxima expresión."/>
+        <SectionTitle title="Piercings" subtitle="El arte del piercing elevado a su máxima expresión."/>
 
         {/* Carrusel */}
         <div className="w-full ">
@@ -135,8 +135,6 @@ export default function Carousel({ images = [], autoplayMs = 5000 }) {
                       onClick={() => openLightbox(image.src, image.alt)}
                     />
                   </div>
-                  <p className="text-white mt-4 text-2xl">{image.artist}</p>
-                  <p className="text-white/90">{image.style}</p>
                 </li>
               ))}
             </ul>
@@ -169,6 +167,15 @@ export default function Carousel({ images = [], autoplayMs = 5000 }) {
           </button>
         </div>
       </div>
+      <div className="flex justify-center mt-20">
+          <a
+        href="https://wa.me/593978693128?text=¡Hola!%20Estoy%20visitando%20su%20sitio%20web%20y%20deseo%20más%20información"
+        className="inline-flex items-center rounded-xl bg-white/90 text-black px-3 py-1.5 text-sm font-semibold hover:bg-white"
+        target="_blank"
+      >
+        Agendar cita
+      </a>
+        </div>
 
       {/* Lightbox */}
       {lightbox.open && (

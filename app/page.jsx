@@ -33,6 +33,7 @@ export default function Home() {
       <StylesFlex />
       <Cta title="¿Aún no estas seguro de tu estilo?" content="Ponte en contacto con nosotros"/>
       <Carousel images={images} />
+      <Artists />
       <Styles />
       <Reviews />
       <Cta title="Nos mantenemos en contacto" content="Nuestros artistas tienn el compromiso de seguir en contacto con nuestros clientes para aseguarnos de una excelente cicatrización"/>

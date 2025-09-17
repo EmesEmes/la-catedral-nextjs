@@ -10,6 +10,12 @@ import Footer from "./components/Footer";
 import Gallery from "./components/Gallery";
 import Styles from "./components/Styles";
 import Artists from "./components/Artists";
+import MovingBand from "./components/MovingBand";
+import StylesFlex from "./components/StylesFlex";
+import Cta from "./components/Cta";
+import Piercings from "./components/Piercings";
+import Reviews from "./components/Reviews";
+import FAQAccordion from "./components/FAQAccordion";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -24,11 +30,14 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <FirstVideo />
+      <StylesFlex />
+      <Cta title="¿Aún no estas seguro de tu estilo?" content="Ponte en contacto con nosotros"/>
       <Carousel images={images} />
-      {/* <Gallery /> */}
-      <Styles />
       <Artists />
+      <Styles />
+      <Reviews />
+      <Cta title="Nos mantenemos en contacto" content="Nuestros artistas tienn el compromiso de seguir en contacto con nuestros clientes para aseguarnos de una excelente cicatrización"/>
+      <FAQAccordion />
       <Map />
       <Footer />
     </>

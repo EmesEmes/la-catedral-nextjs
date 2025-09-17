@@ -3,6 +3,8 @@
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/all";
+import MovingBand from "./MovingBand";
+import Stadistics from "./Stadistics";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -84,19 +86,13 @@ const Hero = () => {
         <div className="overlay absolute inset-0 bg-black opacity-0 z-10"></div>
 
         <div className="absolute inset-0 flex flex-col items-center justify-center transform p-12 hero-content text-4xl text-white z-20">
-          <div className="hero-title">
-            <h1 className="font-black text-2xl mb-6 font-grotesk uppercase">
-              La Catedral Tattoo Studio
-            </h1>
-          </div>
-          <div className="hero-subtitle max-w-[600px] text-center">
-            <h1 className="font-black text-5xl mb-10">
-              Estudio de tatuajes en Quito - Ecuador
-            </h1>
+          <div className="hero-title flex flex-col items-center">
+            <img src="/images/logo.png" alt="" className="w-[800px] opacity-70 "/>
+            <p className="my-10">Quito | Ecuador testttttttt</p>
             <a
               href="https://wa.me/593978693128?text=¡Hola!%20Estoy%20visitando%20su%20sitio%20web%20y%20deseo%20más%20información"
               target="_blank"
-              className="bg-black p-4 rounded-lg border-white border-2 text-lg hover:bg-sky-700 transition duration-[0.5s]"
+              className="bg-black p-4 rounded-lg border-white border-2 text-lg hover:bg-sky-700 transition duration-[0.5s] max-w-44"
             >
               Agendar cita
             </a>
@@ -210,16 +206,10 @@ const Hero = () => {
           </div>
         </div>
       </nav>
-
+      <MovingBand />
       <section className="bg-black text-white grid place-items-center hero-section">
-        <div className="max-w-[1200px] mx-auto">
-          <img
-            src="/images/logo-letras.webp"
-            alt="Logo la catedral Tattoo"
-            className="fade-out w-full"
-            width={240}
-            height={240}
-          />
+        <div className="max-w-[1200px] mx-auto mt-20">
+          
           <p className="text-6xl fade-out text-center mb-10 font-grotesk">
             Bienvenidos
           </p>
@@ -233,6 +223,7 @@ const Hero = () => {
             ideas, emociones y estilo personal se transforman en obras de arte.
           </p>
         </div>
+        <Stadistics />
       </section>
     </>
   );

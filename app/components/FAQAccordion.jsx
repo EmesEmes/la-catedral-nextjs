@@ -2,29 +2,51 @@
 "use client";
 import { useId, useState } from "react";
 import SectionTitle from "./SectionTitle";
+import { useTranslations } from "use-intl";
 
 export default function FAQSection() {
-  // ⬇️ Edita aquí tus preguntas y respuestas
+  const t = useTranslations('questions')
   const faqs = [
     {
-      q: "¿Cuál es el horario de atención?",
-      a: "Atendemos de lunes a viernes de 08:00 a 17:00. Sábados con cita previa.",
+      q: `${t('question1')}`,
+      a: `${t('answer1')}`,
     },
     {
-      q: "¿Qué documentos necesito llevar?",
-      a: "Depende del trámite. Generalmente: cédula, papeleta de votación y documentos de respaldo del acto jurídico.",
+      q: `${t('question2')}`,
+      a: `${t('answer2')}`,
     },
     {
-      q: "¿Hay beneficios para personas mayores o con discapacidad?",
-      a: "Sí, se aplican rebajas conforme la normativa vigente y el porcentaje de discapacidad.",
+      q: `${t('question3')}`,
+      a: `${t('answer3')}`,
     },
     {
-      q: "¿Dónde puedo consultar la tasa notarial?",
-      a: "Puedes consultarla en nuestra ventanilla o en la sección de Tasas del sitio. Se actualiza según normativa.",
+      q: `${t('question4')}`,
+      a: `${t('answer4')}`,
     },
+    {
+      q: `${t('question5')}`,
+      a: `${t('answer5')}`,
+    },
+    {
+      q: `${t('question6')}`,
+      a: `${t('answer6')}`,
+    },
+    {
+      q: `${t('question7')}`,
+      a: `${t('answer7')}`,
+    },
+    {
+      q: `${t('question8')}`,
+      a: `${t('answer8')}`,
+    },
+    {
+      q: `${t('question9')}`,
+      a: `${t('answer9')}`,
+    }
+    
   ];
 
-  const [open, setOpen] = useState(() => new Set()); // solo una abierta a la vez
+  const [open, setOpen] = useState(() => new Set());
   const baseId = useId();
 
   const toggle = (index) => {

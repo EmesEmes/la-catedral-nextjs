@@ -1,19 +1,20 @@
+import { useTranslations } from "use-intl";
 import SectionTitle from "./SectionTitle";
 
-// components/SevenStripResponsive.jsx
 export default function StylesFlex() {
+  const t = useTranslations('styles')
   const imgs = [
-    {src: "/images/tattoos/styles/oriental.webp", name: "Oriental"},
-    {src: "/images/tattoos/styles/realismo.webp", name: "Realismo"},
-    {src: "/images/tattoos/styles/neotradi.webp", name: "Neotradi"},
-    {src: "/images/tattoos/styles/anime.webp", name: "Anime"},
-    {src: "/images/tattoos/styles/grey.webp", name: "Black Grey"},
-    {src: "/images/tattoos/styles/fineline.webp", name: "Fineline"},
-    {src: "/images/tattoos/styles/blackwork.webp", name: "Black Work"},
+    {src: "/images/tattoos/styles/oriental.webp", name: `${t('oriental')}`},
+    {src: "/images/tattoos/styles/realismo.webp", name: `${t('realism')}`},
+    {src: "/images/tattoos/styles/neotradi.webp", name: `${t('neotradi')}`},
+    {src: "/images/tattoos/styles/anime.webp", name: `${t('anime')}`},
+    {src: "/images/tattoos/styles/grey.webp", name: `${t('blackGrey')}`},
+    {src: "/images/tattoos/styles/fineline.webp", name: `${t('fineline')}`},
+    {src: "/images/tattoos/styles/blackwork.webp", name: `${t('blackWork')}`},
   ];
 
   return (
-    <section className="w-full my-20">
+    <section className="w-full my-20" id="styles">
       <SectionTitle title="Estilos" subtitle="ALgunos de los estilos" />
       {/* Móvil: fila con scroll horizontal */}
       <div className="flex gap-3 overflow-x-auto lg:hidden snap-x snap-mandatory px-3">

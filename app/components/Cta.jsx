@@ -1,4 +1,7 @@
+import { useTranslations } from "use-intl";
+
 const Cta = ({title, content}) => {
+  const t = useTranslations('heroSection')
   return (
     <div className="flex flex-col items-center bg-[url(/images/tattoos/1.webp)] p-10 object-cover">
       <p className="text-4xl text-center">{title}</p>
@@ -10,7 +13,7 @@ const Cta = ({title, content}) => {
         className="inline-flex items-center rounded-xl bg-white/90 text-black px-3 py-1.5 text-sm font-semibold hover:bg-white"
         target="_blank"
       >
-        Agendar cita
+        {t('appointment')}
         <span className="ml-2 mx-auto">
           <svg
             xmlns="http://www.w3.org/2000/svg"

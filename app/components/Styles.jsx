@@ -99,7 +99,7 @@ const Styles = () => {
   };
 
   return (
-    <section id="work" className="flex flex-col ">
+    <section id="artists" className="flex flex-col ">
       <SectionTitle title="Artistas de La Catedral" subtitle="alento, pasión y estilo plasmados en cada tatuaje."/>
       <div
         className="relative flex flex-col font-light"

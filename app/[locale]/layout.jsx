@@ -1,5 +1,8 @@
 import { Raleway, Space_Grotesk } from "next/font/google";
 import "./globals.css";
+import { hasLocale, NextIntlClientProvider } from "next-intl";
+import { routing } from "@/i18n/routing";
+import { notFound } from "next/navigation";
 
 const raleway = Raleway({
   subsets: ["latin"],
@@ -92,13 +95,17 @@ export const metadata = {
   },  
 };
 
-export default function RootLayout({ children }) {
+export default async function RootLayout({ children, params }) {
+  const {locale} = await params
+  if(!hasLocale(routing.locales, locale)){
+    notFound()
+  }
   return (
     <html lang="en">
       <body
         className={`${raleway.className} ${grotesk.variable} antialiased bg-black text-white`}
       >
-        {children}
+        <NextIntlClientProvider>{children}</NextIntlClientProvider>
       </body>
     </html>
   );

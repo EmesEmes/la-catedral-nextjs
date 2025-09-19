@@ -1,0 +1,67 @@
+{
+  "heroSection": {
+    "artists": "Artistas",
+    "styles": "Estilos",
+    "appointment": "Agendar cita",
+    "welcome": "Bienvenidos",
+    "name": "La Catedral Tattoo Studio",
+    "description": "Un espacio donde el arte trasciende el lienzo para hacerse eterno en la piel. Nuestro estudio nace con la visión de convertir cada tatuaje en una experiencia única: un ritual creativo en el que tus ideas, emociones y estilo personal se transforman en obras de arte."
+  },
+  "stadistics": {
+    "awards": "Premios",
+    "experience": "Años de Experiencia",
+    "clients": "Clientes Satisfechos" 
+  },
+  "cta1": {
+    "title": "¿Aún no estas seguro de tu estilo?",
+    "subtitle": "Ponte en contacto con nosotros"
+  },
+  "cta2": {
+    "title": "Nos mantenemos en contacto",
+    "subtitle": "Nuestros artistas tienen el compromiso de seguir en contacto con nuestros clientes para aseguarnos de una excelente cicatrización"
+  },
+  "piercings": {
+    "title": "Piercings",
+    "subtitle": "El arte del piercing elevado a su máxima expresión.",
+    "appointment": "Agendar cita"
+  },
+  "artists": {
+    "title": "Artistas de La Catedral",
+    "subtitle": "Talento, pasión y estilo plasmados en cada tatuaje."
+  },
+  "styles": {
+    "oriental": "Oriental",
+    "realism": "Realismo",
+    "neotradi": "Neotradicional",
+    "anime": "Anime",
+    "blackGrey": "Black & Grey",
+    "fineline": "Fineline",
+    "blackWork": "Black Work" 
+  }, 
+  "reviews": {
+    "title": "Lo que dicen nuestros clientes",
+    "subtitle": "Algunos palabras de amables nuestros clientes" 
+  },
+  "questions": {
+    "question1": "¿Dónde está ubicado su estudio?",
+    "answer1": "Nuestro estudio está ubicado en el centro norte de la capital, puedes llegar usando este link de Google map.",
+    "question2": "¿Cuánto cuesta un tatuaje?",
+    "answer2": "El precio mínimo de nuestro estudio es de 60$, ya que usamos materiales de gran calidad y ofrecemos gran calidad y garantías en los tatuajes que realizamos.",
+    "question3": "¿Ofrecen asesorías gratuitas antes de agendar una cita? ",
+    "answer3": "Claro que si! Nuestro estudio ofrece asesorías gratuitas antes de empezar cualquier tatuaje, especialmente si son proyectos grandes. Puedes contactarnos fácilmente vía whatsapp o escribir a nuestro manager para conversar sobre todos los detalles. ",
+    "question4": "¿Hacen tatuajes personalizados?",
+    "answer4": "Claro que si! Nuestros artistas pueden preparar diseños únicos y personalizados con las especificaciones que nuestro cliente requiera. Puedes contactarnos fácilmente vía whatsapp o escribir a nuestro manager para conversar sobre todos los detalles.",
+    "question5": "¿Tienen promociones para tatuajes grandes?",
+    "answer5": "Para proyectos grandes y complejos que requieren sesiones de días completos podemos arreglar un precio que mantenga feliz a nuestro cliente y a nuestro artista cómodo. Algunas veces podemos ofrecer descuentos en proyectos de varias sesiones y para grupos de personas que vienen juntos.",
+    "question6": "¿Hacen covers? ",
+    "answer6": "Si! Tenemos artistas que garantizan cualquier cover up y arreglos a tatuajes viejos. En nuestro estudio puedes recibir una evaluación y asesoría gratuita de nuestro artista para tu tatuaje viejo, y podemos tener algo de inspiración para el nuevo proyecto.",
+    "question7": "¿Se especializan en todos los estilos o hay alguno en que no?",
+    "answer7": "Nuestros artistas se especializan en todos los estilos incluyendo coverups ornamentales, realismo y muchos otros. Si tu quieres un diseño personalizado y específico nuestros artistas definitivamente son la mejor opción, son profesionales con años de experiencia y premios a nivel nacional e internacional.",
+    "question8": "¿Qué pasa si necesito un retoque?",
+    "answer8": "Nuestros tatuajes son realizados con altos estándares de calidad y no necesitan retoques. Aún así, si el retoque es necesario es totalmente gratis.",
+    "question9": "¿Puedo cancelar mi cita y tener mi dinero de vuelta?",
+    "answer9": "Desafortunadamente no ofrecemos devoluciones una vez agendada una cita, ya que desde el momento que la cita está confirmada empezamos a preparar todo para tu tatuaje. La preparación del diseño, de bocetos, la búsqueda de referencias y preparar el espacio de trabajo requieren tiempo y recursos. Por esta razón no ofrecemos devoluciones.",
+    "title": "¿Tienes preguntas?",
+    "subtitle": "Aquí te contenstamos algunas"
+  }
+}

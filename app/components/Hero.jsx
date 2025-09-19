@@ -5,6 +5,7 @@ import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/all";
 import MovingBand from "./MovingBand";
 import Stadistics from "./Stadistics";
+import { useTranslations } from "use-intl";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -60,7 +61,7 @@ const Hero = () => {
     if (navShown) return;
     navShown = true;
     const nav = document.getElementById("nav-fixed");
-    if (nav) nav.style.pointerEvents = "auto"; // vuelve clickeable
+    if (nav) nav.style.pointerEvents = "auto";
     gsap.to("#nav-fixed", {
       autoAlpha: 1,
       y: 0,
@@ -68,6 +69,7 @@ const Hero = () => {
       ease: "power2.out",
     });
   };
+  const t = useTranslations('heroSection')
   return (
     <>
       <section
@@ -88,13 +90,13 @@ const Hero = () => {
         <div className="absolute inset-0 flex flex-col items-center justify-center transform p-12 hero-content text-4xl text-white z-20">
           <div className="hero-title flex flex-col items-center">
             <img src="/images/logo.png" alt="" className="w-[800px] opacity-70 "/>
-            <p className="my-10">Quito | Ecuador testttttttt</p>
+            <p className="my-10">Quito | Ecuador</p>
             <a
               href="https://wa.me/593978693128?text=¡Hola!%20Estoy%20visitando%20su%20sitio%20web%20y%20deseo%20más%20información"
               target="_blank"
               className="bg-black p-4 rounded-lg border-white border-2 text-lg hover:bg-sky-700 transition duration-[0.5s] max-w-44"
             >
-              Agendar cita
+              {t('appointment')}
             </a>
           </div>
         </div>
@@ -109,13 +111,13 @@ const Hero = () => {
           <div className="h-16 flex items-center justify-between rounded-b-2xl border-b border-white/10 bg-black/60 backdrop-blur px-4">
             <ul className="hidden md:flex items-center gap-6 text-sm font-medium text-white">
               <li>
-                <a href="#gallery" className="hover:opacity-80">
-                  Galeria
+                <a href="#styles" className="hover:opacity-80">
+                  {t('styles')}
                 </a>
               </li>
               <li>
-                <a href="#artistas" className="hover:opacity-80">
-                  Artistas
+                <a href="#artists" className="hover:opacity-80">
+                  {t('artists')}
                 </a>
               </li>
             </ul>
@@ -182,7 +184,7 @@ const Hero = () => {
                 className="inline-flex items-center rounded-xl bg-white/90 text-black px-3 py-1.5 text-sm font-semibold hover:bg-white"
                 target="_blank"
               >
-                Agendar cita
+                {t('appointment')}
                 <span className="ml-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -211,16 +213,13 @@ const Hero = () => {
         <div className="max-w-[1200px] mx-auto mt-20">
           
           <p className="text-6xl fade-out text-center mb-10 font-grotesk">
-            Bienvenidos
+            {t('welcome')}
           </p>
           <h1 className="text-center text-4xl mb-20">
-            La catedral Tattoo Studio
+            {t('name')}
           </h1>
           <p className="text-center fade-out max-w-[600px] mx-auto">
-            Un espacio donde el arte trasciende el lienzo para hacerse eterno en
-            la piel. Nuestro estudio nace con la visión de convertir cada
-            tatuaje en una experiencia única: un ritual creativo en el que tus
-            ideas, emociones y estilo personal se transforman en obras de arte.
+            {t('description')}
           </p>
         </div>
         <Stadistics />

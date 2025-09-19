@@ -1,0 +1,67 @@
+{
+  "heroSection": {
+    "artists": "Artists",
+    "styles": "Styles",
+    "appointment": "Schedule an appointment",
+    "welcome": "Welcome",
+    "name": "La Catedral Tattoo Studio",
+    "description": "A space where art transcends the canvas to become eternal on the skin. Our studio was born with the vision of turning each tattoo into a unique experience: a creative ritual in which your ideas, emotions, and personal style are transformed into works of art."
+  },
+  "stadistics": {
+    "awards": "Awards",
+    "experience": "Years of experience",
+    "clients": "Satisfied Customers" 
+  },
+  "cta1": {
+    "title": "Still not sure about your style?",
+    "subtitle": "Contact us"
+  },
+  "cta2": {
+    "title": "We keep in touch",
+    "subtitle": "Our artists are committed to staying in touch with our clients to ensure excellent healing."
+  },
+  "piercings": {
+    "title": "Piercings",
+    "subtitle": "The art of piercing elevated to its highest expression.",
+    "appointment": "Schedule an appointment"
+  },
+  "artists": {
+    "title": "Artists",
+    "subtitle": "Talent, passion and style captured in each tattoo."
+  },
+  "styles": {
+    "oriental": "Oriental",
+    "realism": "Realism",
+    "neotradi": "Neotraditional",
+    "anime": "Anime",
+    "blackGrey": "Black & Grey",
+    "fineline": "Fineline",
+    "blackWork": "Black Work" 
+  }, 
+  "reviews": {
+    "title": "What our customers say",
+    "subtitle": "Some kind words from our customers" 
+  },
+  "questions": {
+    "question1": "Where is your studio located?",
+    "answer1": "Our studio is located in the north-central part of the capital. You can get there using this Google Map link.",
+    "question2": "How much does a tattoo cost?",
+    "answer2": "Our studio's minimum price is $60, as we use high-quality materials and offer high quality and guarantees on the tattoos we perform.",
+    "question3": "Do you offer free consultations before scheduling an appointment?",
+    "answer3": "Of course! Our studio offers free consultations before starting any tattoo, especially for larger projects. You can easily contact us via WhatsApp or write to our manager to discuss all the details.",
+    "question4": "Do you do custom tattoos?",
+    "answer4": "Of course! Our artists can prepare unique, custom designs to our client's specifications. You can easily contact us via WhatsApp or write to our manager to discuss all the details.",
+    "question5": "Do you have promotions for large tattoos?",
+    "answer5": "For large, complex projects requiring full-day sessions, we can arrange a price that keeps our client happy and our artist comfortable. We can sometimes offer discounts on multi-session projects and for groups of people coming together.",
+    "question6": "Do you do cover up tattoos?",
+    "answer6": "Yes! We have artists who guarantee any cover-up or restoration of old tattoos. At our studio, you can receive a free evaluation and consultation from our artist for your old tattoo, and we can get some inspiration for your new project.",
+    "question7": "Do you specialize in all styles or is there one you don't specialize in?",
+    "answer7": "Our artists specialize in all styles, including ornamental coverups, realism, and many others. If you're looking for a custom, specific design, our artists are definitely the best choice. They're professionals with years of experience and national and international awards.",
+    "question8": "What if I need a touch-up?",
+    "answer8": "Our tattoos are made with high quality standards and never require touch-ups. However, if a touch-up is necessary, it's completely free.",
+    "question9": "Can I cancel my appointment and get my money back?",
+    "answer9": "Unfortunately, we do not offer refunds once an appointment has been scheduled. We begin preparing everything for your tattoo from the moment the appointment is confirmed. Preparing the design, sketching, researching references, and setting up the workspace requires time and resources. For this reason, we do not offer refunds.",
+    "title": "Do you have questions?",
+    "subtitle": "Here we answer some of them"
+  }
+}

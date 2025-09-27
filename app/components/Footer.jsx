@@ -1,4 +1,7 @@
+import { useTranslations } from "use-intl";
+
 const Footer = () => {
+  const t = useTranslations('footer')
   return (
     <footer className="max-w-[1200px] mx-auto p-6">
       <div className="flex items-center justify-between">
@@ -88,7 +91,7 @@ const Footer = () => {
 
       <div className="text-center mt-6">
         <p className="text-white/90">
-          Desarrollado por:{" "}
+          {t('text')}{" "}
           <a
             href="https://www.linkedin.com/in/emilio-del-hierro-368b66243/"
             target="_blank"

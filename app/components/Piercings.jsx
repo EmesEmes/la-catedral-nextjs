@@ -166,7 +166,7 @@ export default function Piercings({ images = [], autoplayMs = 2000 }) {
       <div className="flex justify-center mt-20">
           <a
         href="https://wa.me/593978693128?text=¡Hola!%20Estoy%20visitando%20su%20sitio%20web%20y%20deseo%20más%20información"
-        className="inline-flex items-center rounded-xl bg-white/90 text-black px-3 py-1.5 text-sm font-semibold hover:bg-white"
+        className="inline-flex items-center rounded-xl bg-white/90 text-black px-3 py-4 text-sm font-semibold hover:bg-white"
         target="_blank"
       >
         {t('appointment')}

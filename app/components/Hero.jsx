@@ -69,7 +69,7 @@ const Hero = () => {
       ease: "power2.out",
     });
   };
-  const t = useTranslations('heroSection')
+  const t = useTranslations("heroSection");
   return (
     <>
       <section
@@ -77,7 +77,7 @@ const Hero = () => {
         className="relative hero-section h-screen overflow-hidden m-0"
       >
         <video
-          src="/videos/test.mp4"
+          src="/videos/lacatedral.mp4"
           className="h-screen w-screen object-cover  z-0"
           autoPlay
           muted
@@ -89,14 +89,18 @@ const Hero = () => {
 
         <div className="absolute inset-0 flex flex-col items-center justify-center transform p-12 hero-content text-4xl text-white z-20">
           <div className="hero-title flex flex-col items-center">
-            <img src="/images/logo.png" alt="" className="w-[800px] opacity-70 "/>
+            <img
+              src="/images/logo.png"
+              alt=""
+              className="w-[800px] opacity-70 "
+            />
             <p className="my-10">Quito | Ecuador</p>
             <a
               href="https://wa.me/593978693128?text=¡Hola!%20Estoy%20visitando%20su%20sitio%20web%20y%20deseo%20más%20información"
               target="_blank"
               className="bg-black p-4 rounded-lg border-white border-2 text-lg hover:bg-sky-700 transition duration-[0.5s] max-w-44"
             >
-              {t('appointment')}
+              {t("appointment")}
             </a>
           </div>
         </div>
@@ -111,13 +115,80 @@ const Hero = () => {
           <div className="h-16 flex items-center justify-between rounded-b-2xl border-b border-white/10 bg-black/60 backdrop-blur px-4">
             <ul className="hidden md:flex items-center gap-6 text-sm font-medium text-white">
               <li>
-                <a href="#styles" className="hover:opacity-80">
-                  {t('styles')}
+                <a
+                  href="https://www.facebook.com/LaCatedralTattooStudio"
+                  className="hidden md:inline-block text-sm hover:opacity-80 text-white"
+                  target="_blank"
+                >
+                  <span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width={24}
+                      height={24}
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth={1}
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="icon icon-tabler icons-tabler-outline icon-tabler-brand-facebook"
+                    >
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                      <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+                    </svg>
+                  </span>
                 </a>
               </li>
               <li>
-                <a href="#artists" className="hover:opacity-80">
-                  {t('artists')}
+                <a
+                  href="https://www.instagram.com/lacatedraltattoos/"
+                  className="hidden md:inline-block text-sm hover:opacity-80 text-white"
+                  target="_blank"
+                >
+                  <span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width={24}
+                      height={24}
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth={1}
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="icon icon-tabler icons-tabler-outline icon-tabler-brand-instagram"
+                    >
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                      <path d="M4 8a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
+                      <path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+                      <path d="M16.5 7.5v.01" />
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.tiktok.com/@lacatedraltattoos"
+                  className="hidden md:inline-block text-sm hover:opacity-80 text-white"
+                  target="_blank"
+                >
+                  <span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width={24}
+                      height={24}
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth={1}
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="icon icon-tabler icons-tabler-outline icon-tabler-brand-tiktok"
+                    >
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                      <path d="M21 7.917v4.034a9.948 9.948 0 0 1 -5 -1.951v4.5a6.5 6.5 0 1 1 -8 -6.326v4.326a2.5 2.5 0 1 0 4 2v-11.5h4.083a6.005 6.005 0 0 0 4.917 4.917z" />
+                    </svg>
+                  </span>
                 </a>
               </li>
             </ul>
@@ -132,59 +203,11 @@ const Hero = () => {
 
             <div className="flex items-center gap-3">
               <a
-                href="https://www.instagram.com/lacatedraltattoos/"
-                className="hidden md:inline-block text-sm hover:opacity-80 text-white"
-                target="_blank"
-              >
-                <span>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width={24}
-                    height={24}
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth={1}
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    className="icon icon-tabler icons-tabler-outline icon-tabler-brand-facebook"
-                  >
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                    <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
-                  </svg>
-                </span>
-              </a>
-              <a
-                href="https://www.instagram.com/lacatedraltattoos/"
-                className="hidden md:inline-block text-sm hover:opacity-80 text-white"
-                target="_blank"
-              >
-                <span>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width={24}
-                    height={24}
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth={1}
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    className="icon icon-tabler icons-tabler-outline icon-tabler-brand-instagram"
-                  >
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                    <path d="M4 8a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
-                    <path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
-                    <path d="M16.5 7.5v.01" />
-                  </svg>
-                </span>
-              </a>
-              <a
                 href="https://wa.me/593978693128?text=¡Hola!%20Estoy%20visitando%20su%20sitio%20web%20y%20deseo%20más%20información"
                 className="inline-flex items-center rounded-xl bg-white/90 text-black px-3 py-1.5 text-sm font-semibold hover:bg-white"
                 target="_blank"
               >
-                {t('appointment')}
+                {t("appointment")}
                 <span className="ml-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -211,15 +234,12 @@ const Hero = () => {
       <MovingBand />
       <section className="bg-black text-white grid place-items-center hero-section">
         <div className="max-w-[1200px] mx-auto mt-20">
-          
           <p className="text-6xl fade-out text-center mb-10 font-grotesk">
-            {t('welcome')}
+            {t("welcome")}
           </p>
-          <h1 className="text-center text-4xl mb-20">
-            {t('name')}
-          </h1>
+          <h1 className="text-center text-4xl mb-20">{t("name")}</h1>
           <p className="text-center fade-out max-w-[600px] mx-auto">
-            {t('description')}
+            {t("description")}
           </p>
         </div>
         <Stadistics />

@@ -2,7 +2,7 @@
   "heroSection": {
     "artists": "Artists",
     "styles": "Styles",
-    "appointment": "Schedule an appointment",
+    "appointment": "Book now",
     "welcome": "Welcome",
     "name": "La Catedral Tattoo Studio",
     "description": "A space where art transcends the canvas to become eternal on the skin. Our studio was born with the vision of turning each tattoo into a unique experience: a creative ritual in which your ideas, emotions, and personal style are transformed into works of art."
@@ -14,7 +14,8 @@
   },
   "cta1": {
     "title": "Still not sure about your style?",
-    "subtitle": "Contact us"
+    "subtitle": "Contact us",
+    "button": "Talk with us"
   },
   "cta2": {
     "title": "We keep in touch",
@@ -23,14 +24,16 @@
   "piercings": {
     "title": "Piercings",
     "subtitle": "The art of piercing elevated to its highest expression.",
-    "appointment": "Schedule an appointment"
+    "appointment": "I want one of this"
   },
   "artists": {
     "title": "Artists",
     "subtitle": "Talent, passion and style captured in each tattoo."
   },
   "styles": {
-    "oriental": "Oriental",
+    "title": "Styles",
+    "subtitle": "Some of the styles",
+    "oriental": "Asian Style",
     "realism": "Realism",
     "neotradi": "Neotraditional",
     "anime": "Anime",
@@ -44,7 +47,7 @@
   },
   "questions": {
     "question1": "Where is your studio located?",
-    "answer1": "Our studio is located in the north-central part of the capital. You can get there using this Google Map link.",
+    "answer1": "Our studio is located in the north-central part of the capital. Naciones Unidas Avenue and Iñaquito, Metropolitan Building, office 501. You can find the map at the bottom of this web page",
     "question2": "How much does a tattoo cost?",
     "answer2": "Our studio's minimum price is $60, as we use high-quality materials and offer high quality and guarantees on the tattoos we perform.",
     "question3": "Do you offer free consultations before scheduling an appointment?",
@@ -63,5 +66,12 @@
     "answer9": "Unfortunately, we do not offer refunds once an appointment has been scheduled. We begin preparing everything for your tattoo from the moment the appointment is confirmed. Preparing the design, sketching, researching references, and setting up the workspace requires time and resources. For this reason, we do not offer refunds.",
     "title": "Do you have questions?",
     "subtitle": "Here we answer some of them"
+  },
+  "map": {
+    "title": "Arriving is the first step",
+    "subtitle": "Your ink story begins here, find our location."
+  },
+  "footer": {
+    "text": "developed by:"
   }
 }

@@ -14,7 +14,8 @@
   },
   "cta1": {
     "title": "¿Aún no estas seguro de tu estilo?",
-    "subtitle": "Ponte en contacto con nosotros"
+    "subtitle": "Ponte en contacto con nosotros",
+    "button": "Habla con nosotros"
   },
   "cta2": {
     "title": "Nos mantenemos en contacto",
@@ -23,13 +24,15 @@
   "piercings": {
     "title": "Piercings",
     "subtitle": "El arte del piercing elevado a su máxima expresión.",
-    "appointment": "Agendar cita"
+    "appointment": "Quiero uno"
   },
   "artists": {
     "title": "Artistas de La Catedral",
     "subtitle": "Talento, pasión y estilo plasmados en cada tatuaje."
   },
   "styles": {
+    "title": "Estilos",
+    "subtitle": "Algunos de los estilos",
     "oriental": "Oriental",
     "realism": "Realismo",
     "neotradi": "Neotradicional",
@@ -39,14 +42,14 @@
     "blackWork": "Black Work" 
   }, 
   "reviews": {
-    "title": "Lo que dicen nuestros clientes",
+    "title": "Lo que dicen nuestros clientes", 
     "subtitle": "Algunos palabras de amables nuestros clientes" 
   },
   "questions": {
     "question1": "¿Dónde está ubicado su estudio?",
-    "answer1": "Nuestro estudio está ubicado en el centro norte de la capital, puedes llegar usando este link de Google map.",
+    "answer1": "Nuestro estudio está ubicado en el centro norte de la capital , Avenida Naciones Unidas e Iñaquito, Edificio Metropolitan, oficina 501.",
     "question2": "¿Cuánto cuesta un tatuaje?",
-    "answer2": "El precio mínimo de nuestro estudio es de 60$, ya que usamos materiales de gran calidad y ofrecemos gran calidad y garantías en los tatuajes que realizamos.",
+    "answer2": "El precio mínimo de nuestro estudio es de 60$, ya que utilizamos los mejores materiales del mercado y ofrecemos gran calidad y garantías en los tatuajes que realizamos.",
     "question3": "¿Ofrecen asesorías gratuitas antes de agendar una cita? ",
     "answer3": "Claro que si! Nuestro estudio ofrece asesorías gratuitas antes de empezar cualquier tatuaje, especialmente si son proyectos grandes. Puedes contactarnos fácilmente vía whatsapp o escribir a nuestro manager para conversar sobre todos los detalles. ",
     "question4": "¿Hacen tatuajes personalizados?",
@@ -63,5 +66,12 @@
     "answer9": "Desafortunadamente no ofrecemos devoluciones una vez agendada una cita, ya que desde el momento que la cita está confirmada empezamos a preparar todo para tu tatuaje. La preparación del diseño, de bocetos, la búsqueda de referencias y preparar el espacio de trabajo requieren tiempo y recursos. Por esta razón no ofrecemos devoluciones.",
     "title": "¿Tienes preguntas?",
     "subtitle": "Aquí te contenstamos algunas"
+  },
+  "map": {
+    "title": "Llegar es el primer paso",
+    "subtitle": "Aquí comienza tu historia en tinta, encuentra nuestra ubicación."
+  },
+  "footer": {
+    "text": "Desarrollado por:"
   }
 }

@@ -57,7 +57,7 @@ export default function FAQSection() {
       next.add(index);
     }
     setOpen(next);
-  };
+  };  
 
   return (
     <section className="bg-black text-white py-12">
@@ -66,18 +66,18 @@ export default function FAQSection() {
 
         <div className="rounded-2xl border border-zinc-800 bg-black shadow-lg">
           <ul className="divide-y divide-zinc-800">
-            {faqs.map((item, idx) => {
-              const isOpen = open.has(idx);
-              const contentId = `${baseId}-content-${idx}`;
-              const buttonId = `${baseId}-button-${idx}`;
+            {faqs.map((item, i) => {
+              const isOpen = open.has(i);
+              const contentId = `${baseId}-content-${i}`;
+              const buttonId = `${baseId}-button-${i}`;
 
               return (
-                <li key={idx}>
+                <li key={i}>
                   <button
                     id={buttonId}
                     aria-controls={contentId}
                     aria-expanded={isOpen}
-                    onClick={() => toggle(idx)}
+                    onClick={() => toggle(i)}
                     className="w-full text-left px-5 py-4 flex items-center justify-between gap-4 hover:bg-zinc-900/60 focus:outline-none focus-visible:ring-2 focus-visible:ring-sky-500/60"
                   >
                     <span className="text-lg font-semibold">{item.q}</span>

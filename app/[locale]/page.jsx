@@ -3,20 +3,15 @@
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
 import Hero from "../components/Hero";
-import Carousel from "../components/Carousel";
-import FirstVideo from "../components/FirstVideo";
 import Map from "../components/Map";
 import Footer from "../components/Footer";
-import Gallery from "../components/Gallery";
-import Styles from "../components/Styles";
-import Artists from "../components/Artists";
-import MovingBand from "../components/MovingBand";
 import StylesFlex from "../components/StylesFlex";
 import Cta from "../components/Cta";
 import Piercings from "../components/Piercings";
 import Reviews from "../components/Reviews";
 import FAQAccordion from "../components/FAQAccordion";
 import { useTranslations } from "use-intl";
+// import Artists from "../components/Artists";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -32,11 +27,11 @@ const t2 = useTranslations('cta2')
     <>
       <Hero />
       <StylesFlex />
-      <Cta title={t('title')} content={t('subtitle')}/>
+      <Cta title={t('title')} content={t('subtitle')} hasButton={true} img={"/images/estudio.webp"}/>
       <Piercings images={images} />
-      <Artists />
+      {/* <Artists /> */}
       <Reviews />
-      <Cta title={t2('title')} content={t2('subtitle')}/>
+      <Cta title={t2('title')} content={t2('subtitle')} hasButton={false} img={"/images/estudio2.webp"}/>
       <FAQAccordion />
       <Map />
       <Footer />
